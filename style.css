@@ -7,8 +7,25 @@
     --clr-neutral-grayish-blue-300: hsl(217, 19%, 38%);
     --clr-neutral-grayish-blue-600: hsl(217, 19%, 24%);
     --clr-neutral-dark-blue: hsl(218, 23%, 16%);
-    
+
     --ff-primary: 'Manrope', sans-serif;
     --fs-base: 1.75rem;
     --fw-bold: 800;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--clr-neutral-dark-blue);
+    display: grid;
+    place-content: center;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-base);
+    font-weight: var(--fw-bold);
+}
+
+main {
+    background-color: var(--clr-neutral-grayish-blue-600);
+    color: var(--clr-primary-light-cyan);
+    padding: 2rem;
+    text-align: center;
 }
