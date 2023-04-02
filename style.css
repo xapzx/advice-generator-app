@@ -62,6 +62,11 @@ main {
     left: 40.5%;
 }
 
+.generate-btn:hover {
+    cursor: pointer;
+    box-shadow: 1px 0 24px 2px var(--clr-primary-neon-green);
+}
+
 @media (min-width: 800px) {
     main {
         max-width:33.75rem;
